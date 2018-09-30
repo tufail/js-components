@@ -1,0 +1,76 @@
+// variables
+$blue : #4c238a;
+$white: #ffffff;
+
+
+body {
+  background: $blue;
+  color: $white;
+  font-size: 14px;
+  font-family: 'Arial';
+  padding: 0;
+  margin: 0;
+
+  main {
+    padding: 0 3rem;
+  }
+
+  .app {
+    &__items {
+      list-style-type: none;
+      min-width: 200px;
+      line-height: 16px;
+      padding: 0;
+      li {
+        padding: 5px 0;
+        button {
+          background-color: $white;
+          color: red;
+          margin-left: 1rem;
+          display: inline-block;
+          border: 0px;
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+      }
+
+    }
+    &__status {
+      background: #A5299D;
+      padding: 20px 15px;
+      border-radius: 0 0 5px 5px;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .boilerform {
+    background: rgb(229,112,231);
+    background: -moz-linear-gradient(45deg, rgba(229,112,231,1) 0%, rgba(200,94,199,1) 47%, rgba(168,73,163,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(229,112,231,1) 0%,rgba(200,94,199,1) 47%,rgba(168,73,163,1) 100%);
+    background: linear-gradient(45deg, rgba(229,112,231,1) 0%,rgba(200,94,199,1) 47%,rgba(168,73,163,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 );
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+
+    input {
+       padding: 5px;
+       height: 30px;
+       outline: 0;
+       border: 0;
+    }
+    button {
+       padding: 5px 20px;
+       height: 40px;
+       outline: 0;
+       border: 0;
+       cursor: pointer;
+       font-size: 16px;
+       text-transform: uppercase;
+       font-weight: bold;
+       color: $white;
+       background-color: $blue;
+    }
+  }
+}

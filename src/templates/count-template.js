@@ -1,0 +1,1 @@
+module.exports = (storeState) => `<small>You've done</small><span>${storeState.items.length}</span><small>thing${storeState.items.length !== 1 ? 's' : ''} today ${storeState.items.length > 0 ? '🙌' : '😢'}</small>`;

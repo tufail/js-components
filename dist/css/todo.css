@@ -1,0 +1,57 @@
+body {
+  background: #4c238a;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Arial';
+  padding: 0;
+  margin: 0; }
+  body main {
+    padding: 0 3rem; }
+  body .app__items {
+    list-style-type: none;
+    min-width: 200px;
+    line-height: 16px;
+    padding: 0; }
+    body .app__items li {
+      padding: 5px 0; }
+      body .app__items li button {
+        background-color: #ffffff;
+        color: red;
+        margin-left: 1rem;
+        display: inline-block;
+        border: 0px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        cursor: pointer; }
+  body .app__status {
+    background: #A5299D;
+    padding: 20px 15px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 3rem; }
+  body .boilerform {
+    background: #e570e7;
+    background: -moz-linear-gradient(45deg, #e570e7 0%, #c85ec7 47%, #a849a3 100%);
+    background: -webkit-linear-gradient(45deg, #e570e7 0%, #c85ec7 47%, #a849a3 100%);
+    background: linear-gradient(45deg, #e570e7 0%, #c85ec7 47%, #a849a3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 );
+    padding: 15px;
+    border-radius: 5px 5px 0 0; }
+    body .boilerform input {
+      padding: 5px;
+      height: 30px;
+      outline: 0;
+      border: 0; }
+    body .boilerform button {
+      padding: 5px 20px;
+      height: 40px;
+      outline: 0;
+      border: 0;
+      cursor: pointer;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #4c238a; }
+
+/*# sourceMappingURL=todo.css.map*/
